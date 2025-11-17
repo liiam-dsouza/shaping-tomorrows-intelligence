@@ -9,18 +9,23 @@ This hands-on workshop will teach you how to give Large Language Models (LLMs) t
 
 ## What You’ll Need 
 - Docker Desktop
+- Claude Code Desktop
+- Node.js version 18.10 or newer
+- npm (comes with Node.js) or pnpm
 
+## Docker MCP
+1. Load up Docker Desktop navigate over to the `MCP Toolkit` option on the left panel.
+2. Once in the MCP Toolkit area, go over to the `Clients` tab.
+3. Look down in the list until you find the client for the Claude Desktop app, and click the blue 'connect' button next to it.
+4. Go to the `Catalogue` page and install MCP servers for the tools you want to use (Each server has its own slightly different config).
+
+---
 
 ## n8n Agents
 
 ### Installing and Running n8n Locally
 
 n8n is a powerful workflow automation tool that can be run locally on your machine. This guide covers installation using npm or pnpm.
-
-### Prerequisites
-
-- Node.js version 18.10 or newer
-- npm (comes with Node.js) or pnpm
 
 ### Installation
 
